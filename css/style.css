@@ -1,7 +1,7 @@
 
 /*-----------------------GENERAL STYLES ------------------------------*/
 body {
-font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding: 0;
 margin: 0;
 font-size: 1.9em;
@@ -56,6 +56,16 @@ h2 {
 }
 .fa:hover {
   color: #e7e7e7;
+}
+a {
+  color: #055baa;
+  text-decoration: none;
+}
+a:hover {
+  color: #03498a;
+}
+a:visited {
+  color: #69727a;
 }
 p {
   font-size: 14px;
