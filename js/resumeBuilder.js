@@ -121,7 +121,7 @@ var projects = {
                   "title" : "Peckishlaowai.com",
                   "location" : "Auckland, New Zealand ",
                   "dates" : "2010 - 2012",
-                  "description" : "<a href='http://www.peckishlaowai.com' target='_blank'>peckishlaowai.com</a> was my own self-hosted WordPress blog that I had created with my own custom theme where I blogged about my experiences learning Mandarin. "
+                  "description" : "<strong>peckishlaowai.com</strong> was my own self-hosted WordPress blog that I had created with my own custom theme where I blogged about my experiences learning Mandarin. "
                   /*"images": ["images/timthumb.jpg", "images/timthumb.jpg"]*/
             },
             {
@@ -135,8 +135,12 @@ var projects = {
 }
 
 projects.display = function() {
+  console.log(projects.projects.length);
     for (var project in projects.projects)
     {
+      if (project==1) {
+        console.log("in loop");
+      }
        $("#projects").append(HTMLprojectStart);
         var projTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
         $(".project-entry:last").append(projTitle);
@@ -281,7 +285,7 @@ projects.display();
 bio.display();
 work.display();
 education.display();
-projects.display();
+
 //******************CALL MAIN FUNCTIONS ENDS HERE***********************************//
 
 //******************GOOGLE MAP CALLED HERE ***********************************//
