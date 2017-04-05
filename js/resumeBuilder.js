@@ -135,13 +135,9 @@ var projects = {
 }
 
 projects.display = function() {
-  console.log(projects.projects.length);
     for (var project in projects.projects)
     {
-      if (project==1) {
-        console.log("in loop");
-      }
-       $("#projects").append(HTMLprojectStart);
+         $("#projects").append(HTMLprojectStart);
         var projTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
         $(".project-entry:last").append(projTitle);
         var projDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
@@ -287,6 +283,3 @@ work.display();
 education.display();
 
 //******************CALL MAIN FUNCTIONS ENDS HERE***********************************//
-
-//******************GOOGLE MAP CALLED HERE ***********************************//
-$("#mapDiv").append(googleMap);
