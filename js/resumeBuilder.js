@@ -230,11 +230,17 @@ var work = {
                 "dates" : "September 2016 - March 2017",
                 "description" : "I worked as a tecnical liaison between the business and the team of web developers in an agile team. The role requires technical and research skills and being able to translate business requirements into technical requirements. For example investigating the company's online subscription model and identifying web development changes that need to happen to change the subscription process through means of a new API. Adopting new technologies or new tracking such as Segment.io, AppLinks, external analytics tools etc and scoping these changes in agile tickets as user stories. The role also included mobile app testing and general UAT testing. "
             },
-
+            {
+                "employer" : "Triple P International",
+                "title" : "Digital Coordinator (Projects and Data)",
+                "location" : "Brisbane, Australia",
+                "dates" : "March 2015 - September 2016",
+                "description" : "In this role, I was primarily project managing a series of responsive site releases with the wider team and with our web development agency in the Netherlands. The sites were regional or country specific instances and relied heavily on Google store locator and Google maps functionality. There was also a large Google Analytics and Google Tag Manager component to this role, being in charge of campaign reporting and performance management of the sites. This included front-end optimisation initiatives. "
+            },
             {
               "employer" : "NZME. New Zealand Media",
               "title" : "Webmaster / Web Developer",
-              "location" : "Nanjing, China",
+              "location" : "Auckland, New Zealand",
               "dates" : "April 2009 - March 2015",
               "description" : "This role was a hands-on Webmaster role where I served a portfolio of ten brands within the company. The role was a combination of web development, web project management (see projects listed on this page), vendor liaison and management and providing CMS and web operational support to a team of ten content editors across the company's ten radio stations. Beyond the web development projects listed below in the projects section, I provided web development support to sales and advertising teams by building campaign landing pages for special campaigns and new schedulable advertising products as required. " +
               "The role acted as a main liaison between the brand and station managers and the digital department as a first point of contact for any web or mobile related enquiries. I assisted with several brand refresh and site re-build projects and worked closely with graphic designers and brand content editors to support any requirements they had for changes on their websites. In terms of web rebuilds I was managing website project from concept to delivery."
